@@ -13,7 +13,5 @@ export class WorkshopPipelineStage extends Stage {
         const service = new CdkWorkshopStack(this, 'WebService');
         this.hcEndpoint = service.hcEndpoint;
         this.hcViewerUrl = service.hcViewerUrl;
-
-        new CdkWorkshopStack(this, 'WebService');
     }
 }
