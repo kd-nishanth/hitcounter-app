@@ -1,3 +1,9 @@
+# Installation
+1. Pull the repository locally.
+2. Configure AWS CLI sso session, profile (sandbox), default region.
+3. `npm install`
+4. `npx cdk deploy --profile sandbox`
+
 # Engineering Log from the Typescript workshop
 https://cdkworkshop.com/20-typescript.html
 
